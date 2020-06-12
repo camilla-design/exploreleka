@@ -1,0 +1,407 @@
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+  }
+  /*MOBILE HOMEPAGE*/
+  /*MENU BAR*/
+  
+  .nav-menu {
+    position: relative;
+    overflow: hidden;
+    margin-top: 16px;
+    z-index: 320;
+  }
+  .nav-menu #navigationLinks {
+    display: none;
+    background-color:white;
+    position: relative;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #FF9639;
+    display: block;
+    text-transform: uppercase;
+    padding: 8px;
+    text-align: center;
+  }
+  .nav-menu a.burger-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    color: #FF9639;
+    margin-right: 8px;
+    z-index: 200;
+  }
+  .nav-menu a:hover {
+    color: #A7A9AC;
+    text-decoration: underline;
+  }
+  .nav-menu .active {
+    color: black;
+  }
+  .nav-menu img {
+    width: 100px;
+    margin-left: 16px;
+    cursor: pointer;
+  }
+
+
+  /*HEROBANNER-HOMEPAGE*/
+  .hero-banner {
+      z-index: 1;
+      background-image: url("./images/hero-homepage-phone.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;  
+  }  
+ 
+  .hero-text {
+      position: relative;
+      color: white;
+      text-align: center;
+  }
+  .hero-text h1 {
+      padding-top: 50px;
+      font-size: 40px;
+  }
+  .hero-text h2 {
+      width: 300px;
+      margin: 0 auto;
+  }
+  span {
+      color: #FF9639;
+  }
+  .hero-text-ending {
+      position: relative;
+      margin-top: 300px;
+      text-align: center;
+  }
+  .hero-text-ending h3 {
+    color: white;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+  .hero-text-ending a {
+      background-color: #FF9639;
+      text-transform: uppercase;
+      padding: 16px;
+      text-align: center;
+      cursor: pointer;
+      text-decoration: none;
+      color: black;
+  }
+  .hero-text-ending a:hover {
+      color: white;
+      background-color: black;
+  }
+  .down-arrow {
+      font-size: 90px;
+      position: relative;
+      color: white;
+      padding-top: 20px;
+  }
+
+  /*ROUND IMAGE SECTION HOMEPAGE*/
+  .content-wrapper-images {
+      width: 300px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-top: 48px;
+  }
+  .rounded-images img{
+      width: 200px;
+      height: 200px;
+      border-radius: 100%;
+  }
+  .rounded-images {
+      text-align: center;
+      padding-bottom: 40px;
+  }
+  .rounded-images p {
+      width: 300px;
+      margin: 0 auto;
+      text-align: left;
+  }
+  .more-tours-button {
+      text-transform: uppercase;
+      text-align: center;
+      padding-top: 20px;
+  }
+  .more-tours-button a {
+      color: white;
+      background-color: #05711C;
+      padding: 16px;
+      text-decoration: none;
+      font-size: 20px;
+  }
+
+  /*ABOUT US HOMEPAGE*/
+  .about-homepage {
+      background-color: #602F1F;
+      padding: 40px;
+      margin-top: 70px; 
+      color: white; 
+      height: 340px;
+  }
+  .about-homepage h2 {
+      text-transform: uppercase;
+  }
+  .about-homepage-button {
+      text-align: center;
+      margin-top: 40px;
+  }
+  .about-homepage-button a {
+      text-decoration: none;
+      color: black;
+      background-color: #E0D7A0;
+      padding: 16px;
+      font-size: 20px;
+  }
+
+  /*NEXT TRIP HOMEPAGE*/
+  .next-trip-container iframe {
+      width: 320px;
+  }
+  .next-trip-container {
+      padding: 20px;
+  }
+  .booking-button-homepage {
+      margin-top: 40px;
+  }
+  .booking-button-homepage a{
+    background-color: #FF9639;
+      text-transform: uppercase;
+      padding: 16px;
+      text-align: center;
+      cursor: pointer;
+      text-decoration: none;
+      color: black;
+  }
+
+  /*HERO BANNER TOUR SITE*/
+  .herobanner-tour {
+      background-image: url("./images/hero-tour.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; 
+      height: 500px;
+  }
+  .hero-text-tour {
+      background-color: white;
+      margin-top: 30px;
+      margin-left: 30px;
+      margin-right: 90px;
+      padding: 20px;
+      border-radius: 20px;
+      position: absolute;
+  }
+  .book-now-hero a {
+      color: black;
+      background-color: #FF9639;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 8px;
+  }
+
+  /*TOURS*/
+  .tour-package img,
+  .tour-package-row-two img {
+      width: 300px;
+      height: 300px;
+      margin-top: 30px;
+  }
+  .tour-package, .tour-package-row-two {
+      width: 300px;
+      margin: 0 auto;
+  }
+  .tour-package a,
+  .tour-package-row-two a {
+      background-color: #05711C;
+      color: white;
+      padding: 8px;
+      text-decoration: none;
+      text-transform: uppercase;
+  }
+  .tour-package h3 {
+      text-transform: uppercase;
+  }
+  .tour-items span,
+  .tour-items-two span {
+      color: black;
+  }
+  #myBtn,
+  #myBtnTwo,
+  #myBtnThree {
+      color: #FF9639;
+      background-color: white;
+      font-size: 12px;
+      cursor: pointer;
+  }
+  #more,
+  #moreTwo,
+  #moreThree {
+      display: none;
+  }
+
+  /*FOOTER*/
+  .footer-items {
+      background-color: black;
+      padding: 40px;
+  }
+  .footer {
+      display: flex;
+  }
+  .footer img {
+      width: 100px;
+      margin-top: 20px;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+  .footer-links a {
+      color: white;
+      text-decoration: none;
+      padding: 8px;
+  }
+  .copy-right p {
+      color: black;
+      text-align: center;
+      width: 300px;
+      margin: 0 auto;
+      margin-top: 16px;
+      margin-bottom: 8px;
+      font-size: 10px;
+  }
+
+  /*IPAD*/
+  @media only screen and (min-width:768px) {
+      body {
+          width: 700px;
+          margin: 0 auto;
+      }
+      .nav-menu {
+          display: flex;
+          justify-content: space-between;
+      }
+      .nav-menu a.burger-icon {
+          display: none;
+      }
+      .nav-menu a {
+          display: inline-block;
+          margin-top: 16px;
+      }
+      .nav-menu #navigationLinks {
+          display: contents;
+      }
+      .linebreak {
+          display: none;
+      }
+      .hero-banner {
+          background-image: none;
+          background-image: url("./images/herobanner-laptop.jpg");
+          height: auto;
+      }
+      .next-trip-container iframe {
+        width: 600px;
+      }
+      .next-trip-container {
+          width: 400px;
+          margin: 0 auto;
+      }
+      .footer-links {
+          flex-direction: row;
+          margin-top: 40px;
+      }
+  }
+
+  /*LAPTOP*/
+  @media only screen and (min-width:1200px){
+      body {
+          width: 1200px;
+          margin: 0 auto;
+      }
+      .nav-menu img {
+          padding-right: 200px;
+      }
+      .hero-banner {
+        background-image: none;
+        background-image: url("./images/hero-image-laptop.jpg");
+        height: 500px;
+    }
+      .content-wrapper-images {
+          flex-direction: row;
+          margin: 0;
+          justify-content: space-between;
+          width: 1100px;
+          margin: 0 auto;
+          padding-top: 90px;
+      }
+      .hero-text {
+          text-align: left;
+          margin-left: 90px;
+      }
+      .hero-text h2 {
+          text-align: left;
+          margin: 0;
+      }
+      .hero-text-ending {
+          margin: 0;
+          width: 300px;
+          padding-top: 40px;
+          text-align: left;
+      }
+      .down-arrow {
+          display: none;
+      }
+      .next-trip-container {
+          width: 400px;
+          margin: 0 auto;
+      }
+      .footer-items {
+          width: 1200px;
+          margin: 0 auto;
+          margin-top: 40px;
+      }
+      .footer {
+          width: 500px;
+          margin: 0 auto;
+      }
+      .herobanner-tour {
+          background-image: url("./images/hero-tour-laptop.jpg");
+      }
+      .tour-package {
+          width: 1200px;
+      }
+      .flex-tour,
+      .tour-package-row-two {
+          display: flex;
+          justify-content: space-between;
+      }
+      .tour-package-row-two {
+          width: 750px;
+          margin: 0;
+      }
+      .tour-items {
+        width: 300px;
+      }
+      .tour-items-two {
+          width: 300px;
+      }
+      .tour-package img,
+      .tour-package-row-two img  {
+          width: 300px;
+          height: 200px;
+      }
+      .hero-text-tour {
+          margin-top: 90px;
+          width: 300px;
+          padding: 28px;
+      }
+  }
