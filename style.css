@@ -248,6 +248,46 @@ body {
       display: none;
   }
 
+  /*ABOUT US*/
+  .hero-about {
+      background-image: url("./images/hero-about.jpg");
+      background-repeat: no-repeat;
+      background-size: cover; 
+      height: 500px;
+  }
+  .hero-text-about {
+      color: white;
+      font-size: 30px;
+      position: absolute;
+      margin-top: 30px;
+      width: 300px;
+      margin-left: 45px;
+  }
+  .logo-about {
+      width: 370px;
+  }
+  .logo-about img {
+      width: 250px;
+      margin-left: 50px;
+      margin-top: 40px;
+  }
+  .about-items {
+      width: 300px;
+      text-align: center;
+      margin: 0 auto;
+  }
+  .about-text {
+      text-align: left;
+  }
+  .map iframe {
+      width: 300px;
+      height: 300px;
+      padding-bottom: 40px;
+  }
+  .map h2 {
+      text-align: left;
+  }
+
   /*FOOTER*/
   .footer-items {
       background-color: black;
@@ -319,6 +359,44 @@ body {
           flex-direction: row;
           margin-top: 40px;
       }
+      .footer-items {
+          width: 700px;
+          margin: 0 auto;
+      }
+      .hero-text-about h1 {
+          font-size: 50px;
+          width: 700px;
+          text-align: center;
+      }
+      .logo-about img {
+          width: 300px;
+          margin-left: 200px;
+          
+      }
+      .about-items {
+          display: flex;
+          width: 750px;
+          justify-content: space-between;
+          text-align: left;
+          padding-top: 40px;
+          padding-bottom: 40px;
+      }
+      .about-text p {
+          width: 300px;
+      }
+      .about-text {
+          width: 350px;
+      }
+      .map {
+          width: 400px;
+      }
+      .map iframe {
+          width: 350px;
+      }
+      .hero-about {
+          background-image: url("./images/hero-about-laptop.jpg");
+      }
+      
   }
 
   /*LAPTOP*/
@@ -365,7 +443,7 @@ body {
           margin: 0 auto;
       }
       .footer-items {
-          width: 1200px;
+          width: 1000px;
           margin: 0 auto;
           margin-top: 40px;
       }
