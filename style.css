@@ -403,6 +403,10 @@ body {
       .hero-about {
           background-image: url("./images/hero-about-laptop.jpg");
       }
+      .about-text a {
+          color: #602F1F;
+          text-decoration: none;
+      }
       .fb-news iframe {
           width: 600px;
       }
