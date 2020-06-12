@@ -288,6 +288,13 @@ body {
       text-align: left;
   }
 
+  /*NEWS PAGE*/
+  .fb-news {
+      width: 350px;
+      text-align: center;
+      margin: 0 auto;
+  }
+
   /*FOOTER*/
   .footer-items {
       background-color: black;
@@ -395,6 +402,12 @@ body {
       }
       .hero-about {
           background-image: url("./images/hero-about-laptop.jpg");
+      }
+      .fb-news iframe {
+          width: 600px;
+      }
+      .insta-news {
+          text-align: center;
       }
       
   }
